@@ -109,7 +109,7 @@ components and assuming the single power-law astrophysical flux model.
 A script, `diffuse_energy_projection.py`, is provided which will make
 this plot.
 
-![spectrum](/HESE_data_release/resources/images/diffuse_energy_projection_all.png)
+![spectrum](/HESE-7-year-data-release/resources/images/diffuse_energy_projection_all.png)
 
 Another exercise for the reader is to recreate the HESE contours of Fig. XXX from the paper, shown below.
 This plot shows the 68.3% and 95.4% confidence regions for the astrophysical components assuming the single
@@ -121,7 +121,7 @@ The provided plotting script utilizes the `meander` package, which can be instal
 `pip3 install meander`. (Note: A fit at each point can take ~10 minutes to complete,
 so this exercise is not recommended without the use of multiprocessing or a computer cluster.)
 
-![contour](/HESE_data_release/resources/images/spl_freq_scan_paper.png)
+![contour](/HESE-7-year-data-release/resources/images/spl_freq_scan_paper.png)
 
 Finally, the effective area can be computed using the simulation information provided in `HESE_mc.json`.
 To compute the effective area of the astrophysical neutrino flux, one must compute the sum of the `weightOverFluxOverLivetime`
