@@ -35,7 +35,7 @@ Carlo numbering scheme outlined by the [Particle Data Group][pdg].
  particle (neutrino or muon).
  - `trueLength` - The simulated true length of the event, given in meters.
  - `interactionType` - The simulated neutrino interaction of the initial
- particle. Values of `1, 2, 3` correspond to CC, NR, and GR
+ particle. Values of `1, 2, 3` correspond to CC, NC, and GR
  interactions, respectively. For simulated atmospheric muons a value of
  `0` is given.
  - `weightOverFluxOverLivetime` - The MC weight of the neutrino event, divided
